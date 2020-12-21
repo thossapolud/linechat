@@ -6,7 +6,7 @@ $ACCESS_TOKEN = 'iL9n5u9NNXDk/Bm5Yp6anmE1Kj6wzjpTz1CsSmiT2MbiMfrqSAJ6FZORyfi2WPm
 $channelSecret = '943fd5cf2360ad7b306d183e4e83b0d4';
 
 
-$POST_HEADER = array('Content-Type: application/json', 'Authorization: Bearer ' . $ACCESS_TOKEN);
+$POST_HEADER = array('Content-Type: application/json', 'Authorization: 1655253785 ' . $ACCESS_TOKEN);
 
 $request = file_get_contents('php://input');   // Get request content
 $request_array = json_decode($request, true);   // Decode JSON to Array
